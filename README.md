@@ -6,19 +6,11 @@
 
 __Блокчейн__ - это децентрализованная сеть, распределенный на множество компьютеров, представляющая собой "цепь" из блоков данных, которые защищены с помощью криптографии, их невозможно изменить или удалить. Это осуществляется с помощью уникального кода (хэш), который содержит каждый блок.
 
-## Реализация: 
-
-
-## Структура проекта
-tree /F
-
 ## Запуск проекта:
-Клонируем репозиторий: git clone https://github.com/yourusername/caesar_cipher.git
+Клонируем репозиторий: git clone https://github.com/hakloi/blockchain-simple-realisation.git
 
-Заходим в папку caesar_cipher: cd caesar_cipher
+Заходим в папку caesar_cipher: cd blkchn
 
 Устанавливаем зависимости: pip install -r requirements.txt
 
-Для запуска программы: python src/cipher.py "Your message" 3
-
-Запустить тесты: python -m unittest discover -s tests
+Запустить тесты: python tests/tests.py
